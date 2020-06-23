@@ -1,0 +1,38 @@
+.preview-container {
+  background: #323232;
+}
+.preview {
+  min-height: 90vh;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: black;
+    .card {
+      background: white;
+      margin: 1rem 3rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 2rem;
+      flex: 30%;
+      overflow: hidden;
+      h4 {
+        margin: 2rem 0;
+      }
+      p {
+        padding: 1rem;
+      }
+      img {
+        //width: 100%;
+        //object-fit: cover;
+        width: 100%;
+      }
+    }
+  }
+}

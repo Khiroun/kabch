@@ -7,7 +7,7 @@ const Home = () => {
       <div className="showcase">
         <h2>Mabrouk l3yada</h2>
         <img src={sheepImg} alt="Sheep" />
-        <p>Achri kebchek men darek w farah lmra w drari</p>
+        <p>Achri kebchek men darek w farah martak w wladek</p>
       </div>
     </section>
   );
