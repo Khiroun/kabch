@@ -1,0 +1,40 @@
+.nav-container {
+  background: rgb(14, 13, 13);
+}
+
+nav {
+  width: 80%;
+  margin: auto;
+  min-height: 10vh;
+  padding: 3rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  ul {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    list-style: none;
+  }
+  .logo {
+    flex: 3;
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 6rem;
+      height: 6rem;
+      background: #f54538;
+      border-radius: 50%;
+      mix-blend-mode: screen;
+      transform: translate(-10%, -20%);
+    }
+  }
+  .order {
+    background: #f54538;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+  }
+}
